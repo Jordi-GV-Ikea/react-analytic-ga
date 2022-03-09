@@ -29,7 +29,7 @@ const handleClick = () => {
           target="_blank"
           rel="noopener noreferrer">https://zen-hamilton-5670d5.netlify.app/</a>
 }      </header>
-      <p>deploy: 6</p>
+      <p>deploy: 7</p>
         <button onClick={handleClick}>click</button>
         <p>ID flujo: 3335026835</p>
         <p>ID medicion: G-TV6XY5N8M6</p>
