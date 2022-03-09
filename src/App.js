@@ -31,7 +31,7 @@ const handleClick = () => {
           target="_blank"
           rel="noopener noreferrer">https://wonderful-mestorf-270cbb.netlify.app/</a>
  */}      </header>
-      <p>deploy: 2</p>
+      <p>deploy: 3</p>
         <button onClick={handleClick}>click</button>
     </div>
   );
