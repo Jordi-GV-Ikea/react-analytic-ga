@@ -5,8 +5,8 @@ import ReactGA from 'react-ga';
 
 const gaTrackingId = process.env.REACT_APP_GA_TRACKING_CODE;
 
-/* ReactGA.initialize(gaTrackingId);
-ReactGA.pageview('Initial page'); */
+ReactGA.initialize(gaTrackingId);
+ReactGA.pageview('Initial page');
 
 function App() {
   console.log('Tracking id: ',gaTrackingId)
@@ -14,10 +14,10 @@ function App() {
 
 const handleClick = () => {
   console.log('HandleClick was clicked');
-/*   ReactGA.event({
+  ReactGA.event({
     action: 'click',
     category: 'button'
-  }) */
+  })
 }
   return (
     <div className="App">
