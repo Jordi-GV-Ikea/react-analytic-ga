@@ -11,11 +11,11 @@ function App() {
   console.log('Tracking id: ',gaTrackingId)
 
 
-const handleClick = () => {
+const handleClick = (number) => {
   console.log('HandleClick was clicked');
   ReactGA.event({
-    action: 'click',
-    category: 'button'
+    action: 'click'+number,
+    category: 'button'+number,
   })
 }
   return (
@@ -29,8 +29,9 @@ const handleClick = () => {
           target="_blank"
           rel="noopener noreferrer">https://zen-hamilton-5670d5.netlify.app/</a>
 }      </header>
-      <p>deploy: 7</p>
-        <button onClick={handleClick}>click</button>
+      <p>deploy: 17:30</p>
+        <button onClick={handleClick(1)}>click 1</button>
+        <button onClick={handleClick(2)}>click 2</button>
         <p>ID flujo: 3335026835</p>
         <p>ID medicion: G-TV6XY5N8M6</p>
     </div>
