@@ -3,17 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import ReactGA from 'react-ga';
 
-function App() {
-  const gaTrackingId = process.env.REACT_APP_GA_TRACKING_CODE;
-  console.log('Tracking id: ',gaTrackingId)
-  const setGA = () => {
-    ReactGA.initialize(gaTrackingId);
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  };
-  useEffect (() => {
-    setGA();
-  })
+const gaTrackingId = process.env.REACT_APP_GA_TRACKING_CODE;
 
+ReactGA.initialize(gaTrackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+function App() {
+  console.log('Tracking id: ',gaTrackingId)
 
 
 const handleClick = () => {
