@@ -26,11 +26,11 @@ const handleClick = () => {
           Google Analytics using reac-ga
         </h4>
         <img src={logo} className="App-logo" alt="logo" />
-{/*         <a className="App-link"
-          href="https://wonderful-mestorf-270cbb.netlify.app/"
+{        <a className="App-link"
+          href="https://zen-hamilton-5670d5.netlify.app/"
           target="_blank"
-          rel="noopener noreferrer">https://wonderful-mestorf-270cbb.netlify.app/</a>
- */}      </header>
+          rel="noopener noreferrer">https://zen-hamilton-5670d5.netlify.app/</a>
+}      </header>
       <p>deploy: 3</p>
         <button onClick={handleClick}>click</button>
     </div>
