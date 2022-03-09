@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ReactGA from 'react-ga';
 
@@ -25,14 +24,15 @@ const handleClick = () => {
         <h4>
           Google Analytics using reac-ga
         </h4>
-        <img src={logo} className="App-logo" alt="logo" />
 {        <a className="App-link"
           href="https://zen-hamilton-5670d5.netlify.app/"
           target="_blank"
           rel="noopener noreferrer">https://zen-hamilton-5670d5.netlify.app/</a>
 }      </header>
-      <p>deploy: 4</p>
+      <p>deploy: 5</p>
         <button onClick={handleClick}>click</button>
+        <p>ID flujo: 3335026835</p>
+        <p>ID medicion: G-TV6XY5N8M6</p>
     </div>
   );
 }
