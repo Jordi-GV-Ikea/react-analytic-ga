@@ -75,8 +75,8 @@ function App() {
             https://github.com/Jordi-GV-Ikea/react-analytic-ga.git
           </a>
         }
-        <p>ID flujo: 3335026835 / ID medicion: G-TV6XY5N8M6</p>
-        <h3>react ga</h3>
+        <p>tracking ID : G-TV6XY5N8M6</p>
+        <h3>react ga / gtag snippet</h3>
       </footer>
     </div>
   );
