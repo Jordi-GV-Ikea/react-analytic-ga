@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import ReactGA from "react-ga";
 
-const gaTrackingId = process.env.REACT_APP_GA_TRACKING_CODE;
+const gaTrackingId = process.env.REACT_APP_GA_TRACKING_CODE_GTAG;
 
 ReactGA.initialize(gaTrackingId);
 ReactGA.pageview("Initial page");
