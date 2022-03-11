@@ -11,6 +11,7 @@ function App() {
   console.log("Tracking id: ", gaTrackingId);
 
   const handleClick = (number) => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
     ReactGA.event({
       action: `click ${number}`,
       category: `category ${number}`,
@@ -38,7 +39,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/*  */}
-        <h2>Google Analytics</h2>
+        <h2>gtag snippet</h2>
+        <p className='subtitle'>Global site tag (gtag.js) - Google Tag Manager</p>
       </header>
 
       <div className="main>">
@@ -64,7 +66,7 @@ function App() {
       </div>
 
       <footer>
-        <span>Repository: </span>
+        <span>Repository(in  gtag branch):</span>
         {
           <a
             className="App-link"
@@ -75,8 +77,8 @@ function App() {
             https://github.com/Jordi-GV-Ikea/react-analytic-ga.git
           </a>
         }
-        <p>trackingID: G-8FR4R9M037</p>
-        <h3>react ga / gtag snippet</h3>
+        <p>trackingID: G-8FR4R9M037 /react ga </p>
+        <h3></h3>
       </footer>
     </div>
   );

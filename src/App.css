@@ -3,9 +3,14 @@
   text-align: center;
 
 }
-
+h2 {
+  color: yellow;
+}
+.subtitle {
+  color: white;
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #2364e7;
   flex: 0 0 auto;
   align-items: center;
   justify-content: center;
@@ -25,5 +30,5 @@ footer {
   padding-top:22px;
   color: white;
   flex: 0 0 auto;
-  background-color: #282c34;
+  background-color: #2364e7;
 }
