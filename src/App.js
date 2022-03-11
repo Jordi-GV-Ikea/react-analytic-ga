@@ -76,7 +76,7 @@ function App() {
             https://github.com/Jordi-GV-Ikea/react-analytic-ga.git
           </a>
         }
-        <p>Google Analytics -Global site tag (gtag.js) -TrackingID: G-TV6XY5N8M6 / react-ga</p>
+        <p>Google Analytics -Global site tag (gtag.js) / TrackingID: G-TV6XY5N8M6 / react-ga</p>
       </footer>
     </div>
   );
