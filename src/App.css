@@ -10,7 +10,7 @@ h2 {
   color: white;
 }
 .App-header {
-  background-color: #64e64a;
+  background-color: #d4b14f;
   flex: 0 0 auto;
   align-items: center;
   justify-content: center;
@@ -30,5 +30,5 @@ footer {
   padding-top:22px;
   color: white;
   flex: 0 0 auto;
-  background-color: #64e64a;
+  background-color: #d4b14f;
 }
