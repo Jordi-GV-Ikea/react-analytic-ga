@@ -43,20 +43,20 @@ function App() {
        </header>
 
       <div className="main>">
-        <h3>Action /Category</h3>
+        <h4>Action /Category</h4>
         <button onClick={() => handleClick(1)}>
           action:click 1; category:category 1
         </button>
         <button onClick={() => handleClick(2)}>
           action:click 2; category:category 2
         </button>
-        <h3>Action /Category /label</h3>
+        <h4>Action /Category /label</h4>
         <button onClick={() => handleClickSpecial()}>
           {" "}
           action: 'action with label', category: 'category with label', label:
           'my label',
         </button>
-        <h3>Action /Category /label/ custom 1/custom 2/custom 3</h3>
+        <h4>Action /Category /label/ custom 1/custom 2/custom 3</h4>
         <button onClick={() => sendMultiple()}>
           action: 'action multiple', category: 'category multiple', label:
           'label multiple', custom: 'custom 1', custom2: 'custom 2', custom3:
