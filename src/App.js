@@ -40,7 +40,7 @@ function App() {
       <header className="App-header">
         {/*  */}
         <h2>gtag snippet</h2>
-        <p className='subtitle'>Google Analytics & Google Tag Manager</p>
+        <p className='subtitle'>G4 & UA</p>
       </header>
 
       <div className="main>">
