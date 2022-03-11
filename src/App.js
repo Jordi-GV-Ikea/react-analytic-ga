@@ -77,7 +77,6 @@ function App() {
             https://github.com/Jordi-GV-Ikea/react-analytic-ga.git
           </a>
         }
-        <p>trackingID: G-H0E6Z6MXW0</p>
       </footer>
     </div>
   );
