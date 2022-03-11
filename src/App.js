@@ -44,7 +44,7 @@ function App() {
       </header>
 
       <div className="main>">
-        <h4>ReactGA.event : 2/3 values</h4>
+        <h4>Action,Category,label {'=>'} ReactGA.event()</h4>
         <button onClick={() => handleClick(1)}>
           action:click 1; category:category 1
         </button>
@@ -56,7 +56,7 @@ function App() {
           action: 'action with label', category: 'category with label', label:
           'my label',
         </button>
-        <h4>ReactGA.send(): </h4>
+        <h4>A lot of values {'=>'} ReactGA.send(): </h4>
         <button onClick={() => sendMultiple()}>
           action: 'action multiple', category: 'category multiple', label:
           'label multiple', custom: 'custom 1', custom2: 'custom 2', custom3:
@@ -65,7 +65,7 @@ function App() {
       </div>
 
       <footer>
-        <span>Repository(in  UA branch):</span>
+        <span>Repository(in  localhost branch):</span>
         {
           <a
             className="App-link"
