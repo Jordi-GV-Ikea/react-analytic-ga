@@ -39,8 +39,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/*  */}
-        <h2>gtag snippet</h2>
-        <p className='subtitle'>G4 & UA</p>
+        <h2>UA</h2>
+        <p className='subtitle'>UA</p>
       </header>
 
       <div className="main>">
@@ -66,7 +66,7 @@ function App() {
       </div>
 
       <footer>
-        <span>Repository(in  gtag branch):</span>
+        <span>Repository(in  UA branch):</span>
         {
           <a
             className="App-link"
@@ -77,7 +77,6 @@ function App() {
             https://github.com/Jordi-GV-Ikea/react-analytic-ga.git
           </a>
         }
-        <p>trackingID: G-8FR4R9M037 /react ga </p>
       </footer>
     </div>
   );

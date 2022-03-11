@@ -4,13 +4,13 @@
 
 }
 h2 {
-  color: yellow;
+  color: red;
 }
 .subtitle {
   color: white;
 }
 .App-header {
-  background-color: #2364e7;
+  background-color: #64e64a;
   flex: 0 0 auto;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,7 @@ h2 {
 }
 
 .App-link {
-  color: #61dafb;
+  color: red;
 }
 button {
   margin:5px auto;
@@ -30,5 +30,5 @@ footer {
   padding-top:22px;
   color: white;
   flex: 0 0 auto;
-  background-color: #2364e7;
+  background-color: #64e64a;
 }
