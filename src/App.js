@@ -39,7 +39,7 @@ function App() {
       <header className="App-header">
         {/*  */}
         <h3> JGV-react-ga </h3>
-         <p className="subtitle">Global site tag (gtag.js) - Google Analytics</p>
+         <p className="subtitle">Google Analytics</p>
        </header>
 
       <div className="main>">
