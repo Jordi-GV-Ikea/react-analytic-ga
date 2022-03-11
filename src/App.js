@@ -38,8 +38,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/*  */}
-        <h2>Google Analytics</h2>
-      </header>
+        <h3> JGV-react-ga </h3>
+         <p className="subtitle">Global site tag (gtag.js) - Google Analytics</p>
+       </header>
 
       <div className="main>">
         <h3>Action /Category</h3>
@@ -75,8 +76,7 @@ function App() {
             https://github.com/Jordi-GV-Ikea/react-analytic-ga.git
           </a>
         }
-        <p>ID flujo: 3335026835 / ID medicion: G-TV6XY5N8M6</p>
-        <h3>react ga</h3>
+        <p>Google Analytics -Global site tag (gtag.js) -TrackingID: G-TV6XY5N8M6 / react-ga</p>
       </footer>
     </div>
   );

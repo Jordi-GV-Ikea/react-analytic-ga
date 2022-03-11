@@ -11,7 +11,9 @@
   justify-content: center;
   color: white;
 }
-
+.subtitle {
+  color: #61dafb;
+}
 .App-link {
   color: #61dafb;
 }
