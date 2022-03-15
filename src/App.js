@@ -17,11 +17,9 @@ function App() {
     });
   };
   const handleClickSpecial = () => {
-    ReactGA.event({
-      action: "action with label",
-      category: "category with label",
-      label: "my label",
-    });
+    window.sendEvent({  event_category: 'self_serve_actions',
+     event_action: 'delivery_tracking_active',
+     event_label: '<id> - <order type> - <status>' });
   };
   const sendMultiple = () => {
     ReactGA.send({
@@ -50,12 +48,17 @@ function App() {
         <button onClick={() => handleClick(2)}>
           action:click_2; category:category_2
         </button>
-        <h4>Action /Category /label</h4>
-       {/*  <button onClick={() => handleClickSpecial()}>
-          {" "}
-          action: 'action with label', category: 'category with label', label:
-          'my label',
+
+        <h4>2-window.sendEvent()</h4>
+        <button onClick={() => handleClickSpecial()}>
+         event_category: 'self_serve_actions',
+        event_action: 'delivery_tracking_active',
+        event_label: id-ordertype-status 
         </button>
+
+
+
+       {/* 
         <h4>Action /Category /label/ custom 1/custom 2/custom 3</h4>
         <button onClick={() => sendMultiple()}>
           action: 'action multiple', category: 'category multiple', label:
@@ -76,7 +79,7 @@ function App() {
             https://github.com/Jordi-GV-Ikea/react-analytic-ga.git
           </a>
         }
-        <p>Google Analytics -Global site tag (gtag.js) / TrackingID: UA-222880655-1 / react-ga</p>
+        <p>TrackingID: UA-222880655-1 / react-ga</p>
       </footer>
     </div>
   );
