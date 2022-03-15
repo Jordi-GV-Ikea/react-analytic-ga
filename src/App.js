@@ -12,8 +12,8 @@ function App() {
 
   const handleClick = (number) => {
     ReactGA.event({
-      action: `click ${number}`,
-      category: `category ${number}`,
+      action: `click_${number}`,
+      category: `category_${number}`,
     });
   };
   const handleClickSpecial = () => {
@@ -38,14 +38,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/*  */}
-        <h3> JGV-react-ga </h3>
+        <h3> Analytic Team India </h3>
          <p className="subtitle">Google Analytics</p>
        </header>
 
       <div className="main>">
-        <h4>Action /Category</h4>
+        <h4>1- text in lowercase and remove blank spaces</h4>
         <button onClick={() => handleClick(1)}>
-          action:click 1; category:category 1
+          action:click_1; category:category_1
         </button>
         <button onClick={() => handleClick(2)}>
           action:click 2; category:category 2
