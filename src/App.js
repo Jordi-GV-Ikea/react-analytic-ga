@@ -23,7 +23,7 @@ function App() {
     });
   };
 
-  const sendMultiple = () => {
+/*   const sendMultiple = () => {
     ReactGA.send({
       hitType: "event",
       eventAction: "action_multiple",
@@ -33,7 +33,7 @@ function App() {
       custom2: "custom_2",
       custom3: "custom_3",
     });
-  };
+  }; */
   return (
     <div className="App">
       <header className="App-header">
