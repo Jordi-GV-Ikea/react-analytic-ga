@@ -23,7 +23,7 @@ function App() {
     });
   };
 
-/*   const sendMultiple = () => {
+/*   const   sendMultiple = () => {
     ReactGA.send({
       hitType: "event",
       eventAction: "action_multiple",
@@ -39,7 +39,7 @@ function App() {
       <header className="App-header">
         {/*  */}
         <h3> Analytic Team India </h3>
-        <p className="subtitle">UA tag</p>
+        <p className="subtitle">UA univeral analytic tag</p>
       </header>
 
       <div className="main>">
