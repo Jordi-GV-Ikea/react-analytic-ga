@@ -26,12 +26,12 @@ function App() {
   const sendMultiple = () => {
     ReactGA.send({
       hitType: "event",
-      eventAction: "action multiple",
-      eventCategory: "category multiple",
-      eventLabel: "label multiple",
-      custom: "custom 1",
-      custom2: "custom 2",
-      custom3: "custom 3",
+      eventAction: "action_multiple",
+      eventCategory: "category_multiple",
+      eventLabel: "label_multiple",
+      custom: "custom_1",
+      custom2: "custom_2",
+      custom3: "custom_3",
     });
   };
   return (
@@ -39,19 +39,19 @@ function App() {
       <header className="App-header">
         {/*  */}
         <h3> Analytic Team India </h3>
-         <p className="subtitle">Google Analytics</p>
+         <p className="subtitle">UA tag</p>
        </header>
 
       <div className="main>">
-        <h4>1- text in lowercase and remove blank spaces</h4>
+        <h4>1-lowercase text and remove blank spaces</h4>
         <button onClick={() => handleClick(1)}>
           action:click_1; category:category_1
         </button>
         <button onClick={() => handleClick(2)}>
-          action:click 2; category:category 2
+          action:click_2; category:category_2
         </button>
         <h4>Action /Category /label</h4>
-        <button onClick={() => handleClickSpecial()}>
+       {/*  <button onClick={() => handleClickSpecial()}>
           {" "}
           action: 'action with label', category: 'category with label', label:
           'my label',
@@ -61,7 +61,7 @@ function App() {
           action: 'action multiple', category: 'category multiple', label:
           'label multiple', custom: 'custom 1', custom2: 'custom 2', custom3:
           'custom 3',
-        </button>
+        </button> */}
       </div>
 
       <footer>
@@ -76,7 +76,7 @@ function App() {
             https://github.com/Jordi-GV-Ikea/react-analytic-ga.git
           </a>
         }
-        <p>Google Analytics -Global site tag (gtag.js) / TrackingID: G-TV6XY5N8M6 / react-ga</p>
+        <p>Google Analytics -Global site tag (gtag.js) / TrackingID: UA-222880655-1 / react-ga</p>
       </footer>
     </div>
   );
