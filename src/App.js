@@ -78,7 +78,7 @@ function App() {
             https://github.com/Jordi-GV-Ikea/react-analytic-ga.git
           </a>
         }
-        <p>TrackingID: UA-222880655-1 / react-ga</p>
+        <p>TrackingID:UA-222880655-1 / react-ga</p>
       </footer>
     </div>
   );
