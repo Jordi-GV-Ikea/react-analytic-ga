@@ -8,7 +8,6 @@ ReactGA.initialize(gaTrackingId);
 ReactGA.pageview("Initial page");
 
 function App() {
-  console.log("Tracking id: ", gaTrackingId);
 
   const handleClick = (number) => {
     ReactGA.event({
@@ -17,10 +16,13 @@ function App() {
     });
   };
   const handleClickSpecial = () => {
-    window.sendEvent({  event_category: 'self_serve_actions',
-     event_action: 'delivery_tracking_active',
-     event_label: '<id> - <order type> - <status>' });
+    window.sendEvent({
+      event_category: "self_serve_actions",
+      event_action: "delivery_tracking_active",
+      event_label: "<id> - <order type> - <status>",
+    });
   };
+
   const sendMultiple = () => {
     ReactGA.send({
       hitType: "event",
@@ -37,8 +39,8 @@ function App() {
       <header className="App-header">
         {/*  */}
         <h3> Analytic Team India </h3>
-         <p className="subtitle">UA tag</p>
-       </header>
+        <p className="subtitle">UA tag</p>
+      </header>
 
       <div className="main>">
         <h4>1-lowercase text and remove blank spaces</h4>
@@ -51,14 +53,11 @@ function App() {
 
         <h4>2-window.sendEvent()</h4>
         <button onClick={() => handleClickSpecial()}>
-         event_category: 'self_serve_actions',
-        event_action: 'delivery_tracking_active',
-        event_label: id-ordertype-status 
+          event_category: 'self_serve_actions',   event_action:
+          'delivery_tracking_active',   event_label: id-ordertype-status
         </button>
 
-
-
-       {/* 
+        {/* 
         <h4>Action /Category /label/ custom 1/custom 2/custom 3</h4>
         <button onClick={() => sendMultiple()}>
           action: 'action multiple', category: 'category multiple', label:
