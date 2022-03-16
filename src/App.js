@@ -40,7 +40,7 @@ function App() {
       <header className="App-header">
         {/*  */}
         <h2>gtag snippet</h2>
-        <p className='subtitle'>G4 & UA</p>
+        <p>trackingID: UA-222591900-1 /react ga snippet</p>
       </header>
 
       <div className="main>">
@@ -77,7 +77,6 @@ function App() {
             https://github.com/Jordi-GV-Ikea/react-analytic-ga.git
           </a>
         }
-        <p>trackingID: G-8FR4R9M037 /react ga </p>
       </footer>
     </div>
   );
